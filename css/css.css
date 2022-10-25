@@ -1,0 +1,90 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div1{
+    width: 200px;
+    height: 25vh;
+    animation:animy1 2s linear  forwards ;
+}
+@keyframes animy1 {
+    0%{background: url(../image/images\ \(3\).jpg) center no-repeat;  background-size: cover;  transform: translate(0%); }
+    100%{background:  url(../image/images.jpg) center no-repeat;   background-size: cover;  transform: translate(78vw); }
+ 
+}
+.div2{
+    width: 200px;
+    height: 25vh;
+    animation:animy2 2s linear 2s reverse both ;
+}
+@keyframes animy2 {
+    0%{background:  url(../image/download\ \(1\).jpg) center no-repeat;  background-size: cover;  transform: translate(0%); }
+    100%{background:  url(../image/images\ \(6\).jpg) center no-repeat;   background-size: cover;  transform: translate(78vw); }
+}
+
+.div3{
+    width: 200px;
+    height: 25vh;
+    background: url(../image/images\ \(2\).jpg) fixed center no-repeat;  background-size: cover;
+    animation:animy3 2s linear 4s forwards ;
+}
+@keyframes animy3 {
+    0%{background: url(../image/images\ \(2\).jpg) fixed center no-repeat;  background-size: cover;  transform: translate(0%); }
+    100%{background:url(../image/images\ \(4\).jpg)fixed center no-repeat; background-size: cover;  transform: translate(78vw); }
+}
+.div4{
+    width: 200px;
+    height: 25vh;
+    background:  url(../image/images\ \(8\).jpg) center no-repeat;  background-size: cover;
+    animation:animy4 2s  linear  6s reverse both ;
+}
+@keyframes animy4 {
+    0%{background:  url(../image/images\ \(8\).jpg) center no-repeat;  background-size: cover;  transform: translate(0%); }
+    100%{background:  url(../image/images\ \(7\).jpg) center no-repeat;   background-size: cover;  transform: translate(78vw); }
+}
+
+
+.div5{
+    width: 200px;
+    height: 25vh;
+    background: url(../image/images\ \(2\).jpg) fixed center no-repeat;  background-size: cover;
+    animation:animy5 2s linear 8s forwards;
+}
+@keyframes animy5 {
+    0%{background: url(../image/images\ \(2\).jpg) fixed center no-repeat;  background-size: cover;  transform: translate(0%); }
+    100%{background:url(../image/images\ \(4\).jpg)fixed center no-repeat; background-size: cover;  transform: translate(78vw); }
+}
+.div6{
+    width: 200px;
+    height: 25vh;
+    background:url(../image/download.jpg)fixed center no-repeat;   background-size: cover; 
+    animation:animy6 2s linear 10s reverse both;
+
+}
+@keyframes animy6 {
+    0%{background: url(../image/images\ \(1\).jpg) fixed center no-repeat;  background-size: cover;   transform: translate(0%); }
+    100%{background:url(../image/download.jpg) fixed center no-repeat;   background-size: cover;  transform: translate(78vw); }
+}
+.div7{
+    width: 200px;
+    height: 25vh;
+    background: url(../image/download\ \(3\).jpg) center no-repeat;  background-size: cover;
+    animation:animy7 2s linear 12s  forwards ;
+}
+
+@keyframes animy7 {
+    0%{background: url(../image/download\ \(3\).jpg) center no-repeat;  background-size: cover;  transform: translate(0%); }
+    100%{background: url(../image/images\ \(2\).jpg) center no-repeat;   background-size: cover;  transform: translate(78vw); }
+}
+.div8{
+    width: 200px;
+    height: 25vh;
+    background:url(../image/download.jpg)fixed center no-repeat;   background-size: cover; 
+    animation:animy8 2s linear 14s reverse both;
+
+}
+@keyframes animy8 {
+    0%{background: url(../image/images\ \(1\).jpg) fixed center no-repeat;  background-size: cover;   transform: translate(0%); }
+    100%{background:url(../image/download.jpg) fixed center no-repeat;   background-size: cover;  transform: translate(78vw); }
+}
